@@ -1,0 +1,102 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "clientAccess": "Acceso Clientes",
+    "contact": "Contáctenos",
+    "clientAccessOptions": [
+      "Soporte ticket",
+      "Pagos",
+      "Intranet",
+      "Gestión Proyectos",
+      "Drive Cloud"
+    ],
+    "lang": "ES",
+    "langAlt": "EN"
+  },
+  "hero": {
+    "title": "¡Somos alquimistas digitales!",
+    "subtitle": "Trabajemos juntos. Hoy puede ser el inicio de algo grande.",
+    "cta": "Contáctanos"
+  },
+  "footer": {
+    "slogan": "¡Somos alquimistas digitales!",
+    "location": "Santa Anita - Lima, Perú",
+    "phones": "987 826 182 - 966 761 455",
+    "copyright": "GeekCorp©. Todos los derechos reservados"
+  },
+  "clients": {
+    "title": "NUESTROS CLIENTES"
+  },
+  "about": {
+    "why": "¿POR QUÉ ELEGIRNOS?",
+    "desc": "Somos una empresa joven fundada por profesionales apasionados de la tecnología, comprometidos con crear soluciones innovadoras y de alto impacto. Nuestra misión es transformar ideas en aplicaciones funcionales,eficientes y atractivas.",
+    "percents": [
+      "Un equipo de expertos multidisciplinarios",
+      "horas dedicadas a soluciones digitales.",
+      "Proyectos entregados con éxito."
+    ],
+    "benefitsTitle": "BENEFICIOS",
+    "benefits": [
+      {
+        "title": "Soluciones personalizadas",
+        "desc": "Cada proyecto es único, por eso diseñamos soluciones a medida según tus necesidades. Nuestro equipo experto supera obstáculos técnicos con ingenio, rapidez y eficacia."
+      },
+      {
+        "title": "Flujo de trabajo rápido",
+        "desc": "Nuestro enfoque ágil permite entregar resultados de calidad en tiempos óptimos. Nos adatamos rápidamente a los cambios y cumplimos con los cronogramas sin sacrificar excelencia"
+      },
+      {
+        "title": "Pruebas exhaustivas",
+        "desc": "Contamos con un riguroso proceso de pruebas para asegurar que cada producto sea funcional, estable y confiable. La calidad final es una prioridad en cada frase del desarrollo."
+      },
+      {
+        "title": "Seguridad de la información",
+        "desc": "Contamos con protocolos de seguridad avanzados para proteger la información de tus clientes y garantizar el cumplimiento de normativs (como GDPR o ISO 27001)."
+      },
+      {
+        "title": "Escalabilidad",
+        "desc": "Nuestros servicios se adaptan al crecimiento de tu empresa ya que manejes 10 o 10,000 clientes, podemos escalar sin perder calidad ni tiempos de respuesta."
+      }
+    ]
+  },
+  "services": {
+    "title": "SERVICIOS",
+    "subtitle": "Nuestros servicios de Call Center & PBO",
+    "list": [
+      "Atención multicanal",
+      "Gestión de cobranzas",
+      "Agendamiento de citas",
+      "Soporte técnico remoto",
+      "Procesamiento de datos",
+      "Ventas y encuestas telefónicas"
+    ]
+  },
+  "integration": {
+    "title": "FORMA PARTE DEL EQUIPO",
+    "desc": "Únete a nuestro equipo de expertos y lleva tu talento al siguiente nivel. ¡Envíanos tu CV!",
+    "cta": "Unirse al equipo"
+  },
+  "contact": {
+    "title": "¡ESTAMOS AQUÍ PARA AYUDARTE!",
+    "subtitle": "Atendemos tus consultas todos los días, a cualquier hora.",
+    "phones": "📞 Teléfonos:",
+    "email": "📧 Correo:",
+    "desc": "Cuéntanos lo que necesitas y te responderemos con una propuesta personalizada.",
+    "form": {
+      "name": "Nombre/Empresa",
+      "namePlaceholder": "Nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "email@email.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+1234567890",
+      "projectType": "Tipo de proyecto",
+      "projectTypePlaceholder": "Seleccione un tipo de proyecto",
+      "projectTypeOptions": ["Desarrollo de software"],
+      "help": "¿Cómo podemos ayudarte?",
+      "helpPlaceholder": "Describe brevemente tu proyecto o idea.",
+      "submit": "Enviar solicitud"
+    }
+  }
+}

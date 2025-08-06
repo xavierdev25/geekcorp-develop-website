@@ -63,14 +63,12 @@
   },
   "services": {
     "title": "SERVICIOS",
-    "subtitle": "Nuestros servicios de Call Center & PBO",
+    "subtitle": "Desarrollo de aplicaciones",
     "list": [
-      "Atención multicanal",
-      "Gestión de cobranzas",
-      "Agendamiento de citas",
-      "Soporte técnico remoto",
-      "Procesamiento de datos",
-      "Ventas y encuestas telefónicas"
+      "Aplicaciones de Android & iOS",
+      "Aplicaciones de Windows y Web",
+      "UX y Diseño",
+      "Datos y Power BI"
     ]
   },
   "integration": {

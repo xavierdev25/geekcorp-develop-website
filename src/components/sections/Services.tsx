@@ -4,10 +4,8 @@ import { getI18n } from "@/i18n/index";
 import { useLang } from "@/i18n/client";
 const ICONS = [
   "/icons/services/mobile.svg",
-  "/icons/services/telephone.svg",
-  "/icons/services/clip.svg",
   "/icons/services/computer.svg",
-  "/icons/services/chart.svg",
+  "/icons/services/clip.svg",
   "/icons/services/box.svg",
 ];
 
@@ -15,10 +13,10 @@ const Services = () => {
   const lang = useLang();
   const t = getI18n(lang);
   return (
-    <section className="flex">
+    <section className="flex gap-8 justify-center items-center">
       <article
         id="services"
-        className="w-full h-full flex justify-center items-center relative bg-sky flex-col text-deep-blue py-12 md:py-8 space-y-8 rounded-[30px] md:rounded-[50px] xl:rounded-[60px] mt-44 px-4 md:px-0"
+        className="w-full h-full flex justify-center items-center relative bg-sky flex-col text-deep-blue py-12 md:py-8 space-y-8 rounded-[60px] md:rounded-[50px] xl:rounded-[60px] mt-44 px-4 md:px-0"
       >
         <div className="flex justify-center flex-col items-center">
           <div className="flex items-center gap-8">
@@ -44,13 +42,13 @@ const Services = () => {
             {t.services.subtitle}
           </p>
         </div>
-        <div className="grid gap-4 flex-col w-full px-0 md:px-4 lg:px-52 text-[#51ADEC]">
+        <div className="flex gap-4 flex-col  px-0 md:px-4 lg:px-52 text-[#51ADEC]">
           {t.services.list.map((text, idx) => {
             const iconSrc = ICONS[idx];
             return (
               <div
                 key={idx}
-                className="flex gap-2 sm:gap-3 md:gap-4 justify-center items-center bg-light  py-3 rounded-full hover:scale-105 transition-all duration-300 w-full px-0 md:px-4 xl:px-0"
+                className="flex bg-light items-center justify-center py-2 gap-3 px-8 rounded-full"
               >
                 {iconSrc && (
                   <Image
@@ -69,12 +67,27 @@ const Services = () => {
           })}
         </div>
       </article>
-      <article>
-        <div className="grid gap-4 flex-col w-full px-0 md:px-4 lg:px-110 text-[#51ADEC]">
-          <h3 className="text-2xl font-bold">a</h3>
-          <p className="text-base sm:text-2xl md:text-3xl text-center font-medium md:mt-4 sm:mt-2 ">
-            a
-          </p>
+      <article className="flex justify-center items-center max-w-[380px] rounded-[60px] h-[480px] relative p-8 bg-primary">
+        <img
+          src="/assets/image-service-ai.webp"
+          className="absolute z-0 opacity-50 rounded-[60px]"
+          alt=""
+        />
+        <div className="flex flex-col z-10 text-light justify-between h-full">
+          <div>
+            <span className="font-bold text-[36px] leading-none">
+              Desarrollo y entrenamiento de IA
+            </span>
+            <p className="text-lg leading-none font-light">
+              Incluso con la aplicación más pequeña (sea cual sea la plataforma)
+              o un servicio web que tenga miles de líneas de códigos y cientos
+              de algoritmos para funcionar, el departamento de Calidad y Pruebas
+              Automatizadas son vitales para la industria.
+            </p>
+          </div>
+          <button className="bg-deep-blue rounded-[16px] py-2.5 text-xl font-medium items-center justify-center">
+            Más información
+          </button>
         </div>
       </article>
     </section>

@@ -5,6 +5,7 @@ import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
 import Clients from "@/components/sections/Clients";
 import About from "@/components/sections/About";
+import Category from "@/components/sections/Category";
 import Integrations from "@/components/sections/Integrations";
 import Contact from "@/components/sections/Contact";
 
@@ -18,6 +19,7 @@ export default function Home() {
           <Services />
           <Clients />
           <About />
+          <Category />
           <Integrations />
           <Contact />
         </div>

@@ -13,12 +13,12 @@ const Services = () => {
   const lang = useLang();
   const t = getI18n(lang);
   return (
-    <section className="flex gap-8 justify-center items-center">
+    <section className="flex gap-8 justify-center items-center mt-44 ">
       <article
         id="services"
-        className="w-full h-full flex justify-center items-center relative bg-sky flex-col text-deep-blue py-12 md:py-8 space-y-8 rounded-[60px] md:rounded-[50px] xl:rounded-[60px] mt-44 px-4 md:px-0"
+        className="w-full h-full flex justify-center items-center relative bg-sky flex-col text-deep-blue py-16 md:py-10 space-y-8 rounded-[60px] md:rounded-[50px] xl:rounded-[60px] px-4 md:px-0"
       >
-        <div className="flex justify-center flex-col items-center">
+        <div className="flex justify-center flex-col items-center py-3">
           <div className="flex items-center gap-8">
             <Image
               src="/decorations/star-services.svg"
@@ -42,13 +42,13 @@ const Services = () => {
             {t.services.subtitle}
           </p>
         </div>
-        <div className="flex gap-4 flex-col  px-0 md:px-4 lg:px-52 text-[#51ADEC]">
+        <div className="flex gap-4 flex-col  lg:px-52 text-[#51ADEC]">
           {t.services.list.map((text, idx) => {
             const iconSrc = ICONS[idx];
             return (
               <div
                 key={idx}
-                className="flex bg-light items-center justify-center py-2 gap-3 px-8 rounded-full"
+                className="flex bg-light items-center justify-center py-2.5 gap-3 px-8 rounded-full"
               >
                 {iconSrc && (
                   <Image
@@ -78,7 +78,7 @@ const Services = () => {
             <span className="font-bold text-[36px] leading-none">
               Desarrollo y entrenamiento de IA
             </span>
-            <p className="text-lg leading-none font-light">
+            <p className="text-lg leading-none">
               Incluso con la aplicación más pequeña (sea cual sea la plataforma)
               o un servicio web que tenga miles de líneas de códigos y cientos
               de algoritmos para funcionar, el departamento de Calidad y Pruebas

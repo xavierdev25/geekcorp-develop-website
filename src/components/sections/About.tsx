@@ -26,7 +26,7 @@ const About = () => {
           alt="decoración estrella"
           width={40}
           height={40}
-          className="w-18 hidden 2xl:block"
+          className="w-18 hidden 2xl:block transform -translate-x-10/2"
         />
         <h2 className="text-3xl md:text-5xl font-black flex justify-center md:mb-4 text-center">
           {t.about.why}
@@ -36,7 +36,7 @@ const About = () => {
           alt="decoración estrella"
           width={40}
           height={40}
-          className="w-12 absolute transform translate-x-17/1 hidden 2xl:block"
+          className="w-12 absolute transform translate-x-15/1 hidden 2xl:block"
         />
         <p className="leading-none text-base md:text-2xl text-center px-8">
           {t.about.desc}
@@ -46,7 +46,7 @@ const About = () => {
           alt="decoración estrella"
           width={40}
           height={40}
-          className="w-13 hidden 2xl:block"
+          className="w-13 hidden 2xl:block transform translate-x-4/2"
         />
       </div>
       <div className="flex 2xl:flex-row flex-col justify-center items-center 2xl:justify-start 2xl:items-start mt-6 2xl:mt-16">

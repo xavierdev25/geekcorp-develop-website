@@ -69,7 +69,7 @@ function Category() {
 
       <article className="justify-center items-center flex flex-col gap-8 md:gap-12 mt-8 md:mt-14">
         {/* Primera fila - 2 tarjetas */}
-        <div className="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-18 w-full justify-center">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-18 w-full justify-center items-center">
           {t.category.categories.slice(0, 2).map((category, index) => (
             <CategoryCard
               key={index}
@@ -81,7 +81,7 @@ function Category() {
         </div>
 
         {/* Segunda fila - 2 tarjetas */}
-        <div className="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-18 w-full justify-center">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-18 w-full justify-center items-center">
           {t.category.categories.slice(2, 4).map((category, index) => (
             <CategoryCard
               key={index + 2}

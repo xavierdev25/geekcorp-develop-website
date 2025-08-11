@@ -42,7 +42,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-deep-blue px-16 py-12 flex flex-col md:flex-row items-center justify-between">
-      <div className="space-y-4 flex flex-col xl:flex-row items-center md:items-start">
+      <div className="space-y-4 flex flex-col items-center md:items-start">
         <Image
           src="/assets/logo-footer.webp"
           alt="logo"
@@ -70,7 +70,7 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <div className="flex flex-col xl:flex-row xl:justify-end items-center md:items-end mt-12 md:mt-0">
+      <div className="flex flex-col xl:justify-end items-center md:items-end mt-12 md:mt-0">
         <span className="font-medium text-white text-lg text-center md:text-left">
           {t.footer.location}
         </span>

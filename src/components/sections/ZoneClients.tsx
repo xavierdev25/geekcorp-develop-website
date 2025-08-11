@@ -86,7 +86,7 @@ function ZoneClients() {
         />
       </div>
 
-      <article className="justify-center items-center flex gap-8 md:gap-18 mt-8 md:mt-14">
+      <article className="justify-center items-center flex flex-col md:flex-row gap-8 md:gap-18 mt-8 md:mt-14">
         {clientCategories.map((category, index) => (
           <CategoryCard
             key={index}

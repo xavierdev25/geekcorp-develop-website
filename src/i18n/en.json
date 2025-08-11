@@ -98,5 +98,48 @@
       "helpPlaceholder": "Briefly describe your project or idea.",
       "submit": "Send request"
     }
+  },
+  "category": {
+    "title": "TECHNOLOGICAL SOLUTIONS TAILORED TO YOUR BUSINESS",
+    "subtitle": "Discover our specialized services in development, support and analysis designed to help you grow, innovate and lead your sector.",
+    "categories": [
+      {
+        "title": "Call Center & BPO Service",
+        "description": "Comprehensive customer service solutions and business process outsourcing."
+      },
+      {
+        "title": "Windows & Web Applications",
+        "description": "Cross-platform software development: Windows desktop and scalable web solutions."
+      },
+      {
+        "title": "Mobile Development",
+        "description": "Native and hybrid applications for iOS and Android with modern technologies."
+      },
+      {
+        "title": "Data Analysis & Power BI",
+        "description": "Transform data into actionable insights with interactive dashboards and advanced reports."
+      },
+      {
+        "title": "UX/UI Design",
+        "description": "User-centered digital experiences with modern and usable interfaces."
+      }
+    ]
+  },
+  "zoneClients": {
+    "title": "CLIENT ZONE",
+    "subtitle": "Easily access your technical support and manage your payments securely.",
+    "decoration": {
+      "alt": "star decoration"
+    },
+    "support": {
+      "title": "Technical Support",
+      "description": "Send and manage your support tickets quickly and securely.",
+      "alt": "Technical Support"
+    },
+    "payments": {
+      "title": "Payment Management",
+      "description": "Review your account statements and make online payments with complete confidence.",
+      "alt": "Payment Management"
+    }
   }
 }

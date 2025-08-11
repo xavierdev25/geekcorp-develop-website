@@ -6,6 +6,7 @@ import Services from "@/components/sections/Services";
 import Clients from "@/components/sections/Clients";
 import About from "@/components/sections/About";
 import Category from "@/components/sections/Category";
+import ZoneClients from "@/components/sections/ZoneClients";
 import Integrations from "@/components/sections/Integrations";
 import Contact from "@/components/sections/Contact";
 
@@ -19,8 +20,9 @@ export default function Home() {
           <Services />
           <Clients />
           <About />
-          <Category />
           <Integrations />
+          <Category />
+          <ZoneClients />
           <Contact />
         </div>
         <Footer />

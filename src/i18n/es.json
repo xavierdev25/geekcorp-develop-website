@@ -96,5 +96,48 @@
       "helpPlaceholder": "Describe brevemente tu proyecto o idea.",
       "submit": "Enviar solicitud"
     }
+  },
+  "category": {
+    "title": "SOLUCIONES TECNOLÓGICAS A LA MEDIDA DE TU NEGOCIO",
+    "subtitle": "Descubre nuestros servicios especializados en desarrollo, soporte y análisis diseñados para ayudarte a crecer, innovar y liderar tu sector.",
+    "categories": [
+      {
+        "title": "Servicio Call Center & PBO",
+        "description": "Soluciones integrales de atención al cliente y externalización de procesos empresariales."
+      },
+      {
+        "title": "Aplicaciones Windows y Web",
+        "description": "Desarrollo de software multiplataforma: escritorio Windows y soluciones web escalables."
+      },
+      {
+        "title": "Desarrollo Móvil",
+        "description": "Aplicaciones nativas e híbridas para iOS y Android con tecnologías modernas."
+      },
+      {
+        "title": "Análisis de Datos & Power BI",
+        "description": "Transformación de datos en insights accionables con dashboards interactivos y reportes avanzados."
+      },
+      {
+        "title": "Diseño UX/UI",
+        "description": "Experiencias digitales centradas en el usuario, con interfaces modernas y usables."
+      }
+    ]
+  },
+  "zoneClients": {
+    "title": "ZONA DE CLIENTES",
+    "subtitle": "Accede fácilmente a tu soporte técnico y gestiona tus pagos de manera segura.",
+    "decoration": {
+      "alt": "decoración estrella"
+    },
+    "support": {
+      "title": "Soporte técnico",
+      "description": "Envía y gestiona tus tickets de atención de forma rápida y segura.",
+      "alt": "Soporte técnico"
+    },
+    "payments": {
+      "title": "Gestión de Pagos",
+      "description": "Revisa tus estados de cuenta y realiza pagos en línea con total confianza.",
+      "alt": "Gestión de Pagos"
+    }
   }
 }
